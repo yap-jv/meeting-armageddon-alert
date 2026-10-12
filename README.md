@@ -46,6 +46,9 @@ To update later: `git -C ~/code/meeting-armageddon-alert pull`, then reload Hamm
 
 ## Configuration
 
+Ready-to-copy examples live in [`examples/`](examples): [`init.lua`](examples/init.lua) with every option set to its
+default, and [`meet_ics_url.txt.example`](examples/meet_ics_url.txt.example) for the feed URL file.
+
 ```lua
 hs.loadSpoon("MeetingAlert")
 spoon.MeetingAlert:configure({

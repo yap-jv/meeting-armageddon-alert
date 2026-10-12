@@ -1,0 +1,5 @@
+# One iCal feed URL per line. Lines starting with # are ignored.
+# Google Calendar -> Settings and sharing -> Integrate calendar -> "Secret address in iCal format"
+# Copy this file to ~/.hammerspoon/meet_ics_url.txt and replace the placeholder below.
+# This URL is a secret: never commit it or share it.
+https://calendar.google.com/calendar/ical/YOUR_EMAIL%40example.com/private-YOUR_SECRET_TOKEN/basic.ics
